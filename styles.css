@@ -1,13 +1,11 @@
-/* styles.css */
-
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
     background: url('https://img.freepik.com/free-vector/gradient-technology-background_23-2149108836.jpg?t=st=1733127700~exp=1733131300~hmac=1fb5f1650aaa17088f98de689ced938e1f33935ccc69f81e1b55c4bb2c4153a3&w=1800') no-repeat center center fixed;
     background-size: cover;
-    color: #fff; /* Set text color to white */
-    overflow-x: hidden; /* Prevent horizontal scroll */
+    color: #fff;
+    overflow-x: hidden;
 }
 
 header {
@@ -21,7 +19,7 @@ header {
     width: 100%;
     position: fixed;
     top: 0;
-    z-index: 1000; /* Ensure header is above other content */
+    z-index: 1000;
 }
 
 .header-content {
@@ -62,10 +60,10 @@ nav ul li a {
     border-radius: 15px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(15px);
-    max-width: 1000px; /* Increased width */
+    max-width: 1000px;
     width: 90%;
-    margin: 200px auto 100px auto; /* Adjusted for fixed header and footer */
-    color: #fff; /* Set text color to white */
+    margin: 200px auto 100px auto;
+    color: #fff;
 }
 
 h2 {
@@ -93,12 +91,12 @@ p {
 
 .project-item img {
     width: 100%;
-    max-width: 300px; /* Set maximum width */
+    max-width: 300px;
     height: auto;
-    max-height: 200px; /* Set maximum height */
-    object-fit: cover; /* Scale the image to fit the box */
+    max-height: 200px;
+    object-fit: cover;
     display: block;
-    margin: 0 auto; /* Center the image */
+    margin: 0 auto;
 }
 
 .project-item a {
@@ -126,7 +124,7 @@ p {
 }
 
 .contact-item a {
-    color: #fff; /* Ensure link color is white */
+    color: #fff;
     text-decoration: none;
     display: block;
 }
@@ -152,7 +150,7 @@ p {
     bottom: 0;
     left: 50%;
     margin-left: -3px;
-    z-index: -1; /* Ensure the line is behind the content */
+    z-index: -1;
 }
 
 .timeline-item {
@@ -166,7 +164,7 @@ p {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(10px);
     margin: 1rem 0;
-    cursor: pointer; /* Indicate that the item is clickable */
+    cursor: pointer;
 }
 
 .timeline-item:nth-child(even) {
@@ -208,12 +206,12 @@ p {
 
 .timeline-content img {
     width: 100%;
-    max-width: 300px; /* Set maximum width */
+    max-width: 300px;
     height: auto;
-    max-height: 200px; /* Set maximum height */
-    object-fit: cover; /* Scale the image to fit the box */
+    max-height: 200px;
+    object-fit: cover;
     display: block;
-    margin: 0 auto; /* Center the image */
+    margin: 0 auto;
 }
 
 .timeline-content .date {
@@ -231,5 +229,5 @@ footer {
     bottom: 0;
     backdrop-filter: blur(15px);
     border-radius: 10px 10px 0 0;
-    z-index: 1000; /* Ensure footer is above other content */
+    z-index: 1000;
 }
